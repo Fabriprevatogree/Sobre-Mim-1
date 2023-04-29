@@ -1,4 +1,158 @@
-a {
-    text-decoration: none;
-    color: red;
+* {
+
 }
+body {
+   color: white;
+}
+a {
+   text-decoration: none;
+}
+h1 {
+    font-size: 30px;
+}
+
+.subtitulo3 {
+    border-top: 15px solid;
+    border-color: #272335;
+    
+}
+
+.titulo2{
+    text-align: center;
+    border-right: 0px solid;
+}
+    
+.imagem {
+    height: 600px;
+    border-top: 10px solid #b47f3000;
+    background-image: url("https://images8.alphacoders.com/490/490274.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 5px solid #fff;
+    
+}
+#titulo-1 {
+    border-bottom: 55px solid;
+    border-color: #272335;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+h5 {
+    text-align: left;
+}
+footer {
+    background-color: #141414;
+    color: #fff;
+    border-top: 5px solid #fff;
+    text-align: left;
+    padding: 10px;
+}
+    
+.link1 {
+    display: inline-block;
+    width: 10%;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.link1:hover {
+    background-color:#adb5bd;
+}
+#card-A  {
+   height: 400px;
+   color: #000000;
+   display: inline-block;
+   text-align: center;
+   border-right: 60px solid #272335;
+   
+}
+#card-B {
+    height: 400px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+  
+}
+#card-C {
+    height: 400px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+    border-left: 60px solid #272335;
+}
+#card-D{
+    height: 400px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+    border-right: 60px solid #272335;
+}
+#card-E {
+    height: 400px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+}
+#card-F {
+    height: 400px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+    border-right: 60px solid #272335;
+}
+#card-G {
+    height: 400px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+}
+#card-H {
+    height: 400px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+    border-left: 60px solid #272335;
+}
+#imagem0 {
+    border-radius: 50%;
+}
+img {
+    border-radius: 5%;
+}
+#centro {
+    text-align: center;
+    color: #fff;
+    background-color: #272335;
+}
+
+.video {
+    border-top: 5px solid #fff;
+    color: #fff;
+    background-color:#18232e;
+    text-align: center;
+    
+}
+.titulo-3 {
+    text-align: center;
+}
+.texto-2 {
+    text-align: right ;
+    height: 1px;
+
+}
+.paragrafo {
+    -ms-text-align-last: left;
+}
+
+
+
+
+
+ 
