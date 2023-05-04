@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <!--CABEÇALHO-->
+  <header>
+  <h1>Preencha o formulario</h1>
+ </header>
+  <!--FORMULARIO-->
+ <main>
+  <form>
+      <fieldset>
+      <div>
+          <label for="Nome" >Nome</label>
+          <input type="text" name="Nome" id="Nome" >
+      </div>
+      <div>
+          <label for="Sobrenome">Sobenome</label>
+          <input type="text" name="Sobrenome" id="Sobrenome">
+      </div>
+      <div>
+          <label for="Email">Email</label>
+          <input type="email" name="Email" id="Email" >
+      </div>
+      </fieldset>
+      <div class="Genero">
+          <label>Sexo:</label>
+          <label>
+              <input type="radio" name="botão" value="Masculino" >Masculino
+          </label>
+          <label>
+              <input type="radio" name="botão" value="Feminino">Feminino
+          </label>
+      </div>
+      <div>
+        <label>Diga oque você achou do Site</label>
+        <textarea row="6" name="texto" id="texto" ></textarea>
+      </div>
+      <button type="submit" class="botão">Concluido</button>
+  </form>
+ </main>
+ <footer></footer>
 </body>
 </html>

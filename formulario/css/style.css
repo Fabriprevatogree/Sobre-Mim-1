@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: #131c29;
+    color: #fff;
+}
+header {
+
+}
+fieldset {
+    border: none;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+.Genero {
+    margin: 15px;
+}
+.botão {
+    margin: 15px;
+}
