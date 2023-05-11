@@ -4,6 +4,7 @@
 }
 body {
    color: white;
+   background-color: #122144;
    
 }
 
@@ -22,16 +23,17 @@ h1 {
 }   
 .Home {
     height: 950px ;
-    margin-top: 3px ;
-    background-image: url("https://images8.alphacoders.com/490/490274.jpg");
+    border-top: 3px solid;
+    background-image: url("https://i.ytimg.com/vi/zTK9DhM6OQc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-DoACuAiKAgwIABABGBMgKih_MA8=&rs=AOn4CLC3CH4h3emf5N2VlJ4NTTuDwEDnDw");
     background-size: cover;
     background-position:center;
     text-align: center;
-    font-size: 13px;
-   margin-bottom: 5px;
+    font-size: 20px;
+    border-bottom: 5px solid;
     
 }
 #titulo-1 {
+    
     margin-bottom: 55px;
     border-color: #272335;
     text-align: center;
@@ -78,6 +80,7 @@ h5 {
     margin: 15px;
 }
 #centro {
+    
     text-align: center;
     color: #fff;
     background-color: #122144;
@@ -95,33 +98,27 @@ img {
     margin: 15px;
 }
 .imagens {
-    background-color: #ff7942;
-    margin-top: 6px;
+    background-color: #122144;
+    margin-top: 100px;
     color: #fff;
     text-align: center;
-    border-radius: 3%;
+    margin-bottom: 100px;
 }
 .imagem-1 {
-    border-bottom: 5px solid #fff;
-    border-top: 5px solid #fff;
-    border-left: 5px solid #fff;
-    border-right: 5px solid #fff;
+  border: 5px solid #fff;
 }
 
 /*VIDEOS*/
 
 .videos {
-    margin-top: 5px;
-    color: #fff;
-    background-color: #04181e;
+    border-top: 5px solid #fff ;
+    color: #000000;
+    background-color: #979aa0;
     text-align: center;
     height: 500px;
 }
 .video {
-    border-top: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-    border-left: 5px solid #fff;
-    border-right: 5px solid #fff;
+    border: 5px solid #fff;
     border-radius: 5%;
     margin: 5px;
 }
@@ -133,7 +130,7 @@ img {
 footer {
     background-color: #141414;
     color: #fff;
-    margin-top: 5px;
+    border-top: 5px solid;
     text-align: left;
     padding: 10px;
 }
