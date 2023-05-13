@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+
+    <!--BOOTSTRAP SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+    crossorigin="anonymous"></script>
+
     <title>formulario</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,37 +25,39 @@
  </header>
   <!--FORMULARIO-->
  <main>
-  <form>
+  <form id="formulario">
       <fieldset>
       <div>
-          <label for="Nome" >Nome</label>
+          <label for="Nome" ><strong>Nome</strong></label>
           <input type="text" name="Nome" id="Nome" >
       </div>
       <div>
-          <label for="Sobrenome">Sobenome</label>
+          <label for="Sobrenome"><strong>Sobenome</strong></label>
           <input type="text" name="Sobrenome" id="Sobrenome">
       </div>
       <div>
-          <label for="Email">Email</label>
+          <label for="Email"><strong>Email</strong></label>
           <input type="email" name="Email" id="Email" >
       </div>
       </fieldset>
       <div class="Genero">
-          <label>Sexo:</label>
+          <label><strong>Sexo:</strong></label>
           <label>
-              <input type="radio" name="botão" value="Masculino" >Masculino
+              <input type="radio" name="botão" value="Masculino" ><strong>Masculino</strong>
           </label>
           <label>
-              <input type="radio" name="botão" value="Feminino">Feminino
+              <input type="radio" name="botão" value="Feminino"><strong>Feminino</strong>
           </label>
       </div>
       <div>
-        <label>Diga oque você achou do Site</label>
+        <label><strong>Diga oque você achou do Site</strong></label>
         <textarea row="6" name="texto" id="texto" ></textarea>
       </div>
       <button type="submit" class="botão">Concluido</button>
   </form>
  </main>
- <footer></footer>
+ <footer>
+    <h1>Obrigado por preencher o Formulario</h1>
+ </footer>
 </body>
 </html>
